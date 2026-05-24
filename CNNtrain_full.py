@@ -14,7 +14,7 @@ from torchvision import transforms
 from tqdm import tqdm
 from sklearn.model_selection import train_test_split
 
-from CNNdataset import AlarmDataset
+from CNNdataset_enhanced import AlarmDataset
 from CNNmodel_enhanced import AlarmCNN_Enhanced
 from CNNrule_checker import AlarmRuleChecker
 
